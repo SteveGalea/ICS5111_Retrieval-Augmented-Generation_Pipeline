@@ -1,0 +1,1 @@
+1. Download 600MB tar.gz and extract cord dataset here https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-03-20.tar.gz
