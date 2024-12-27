@@ -1,4 +1,5 @@
 from Scraper import generic_scraper as scraper
+from Scraper import text_helper as text_helper
 import pandas as pd
 
 
@@ -16,18 +17,16 @@ def cord_19_data_keep_only_has_full_text_df(df):
     return ret
 
 
-def run_scraper_PMC():
-    # Use a breakpoint in the code line below to debug your script.
-    print('Running scraper')  # Press Ctrl+F8 to toggle the breakpoint.
-    df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv'))
-    scraper.scrape_data(df)
-
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # run_scraper_PMC()
     df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv'))
-    scraper.download_html_files(df)
+    # scraper.download_html_files(df)
+    scraper.scrape_full_text(df)
+
+    # df = pd.read_csv('./Outputs/Data/CORD_Data.csv')
+    # df_clean = text_helper.lemmatise(df)
+    # scraper.summarise_full_text(df)
 
 
 

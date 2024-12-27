@@ -11,25 +11,6 @@ import pandas as pd
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# def pdf_to_html(pdf_path, output_html, name):
-#     # Command to convert PDF to HTML
-#     command = ['pdf2htmlEX', pdf_path, output_html]
-#     subprocess.run(command, check=True)
-
-# Convert the PDF to HTML
-# pdf_to_html('example.pdf', 'output.html')
-
-# Define relevant headers
-relevant_headers = [
-    "abstract", "title", "introduction", "discussion", "results",
-    "methods", "materials", "methods", "conclusion", "summary",
-    "keywords", "figures", "tables", "analysis", "comparison"
-]
-
-# Normalize text for comparison
-def is_relevant_header(header_text):
-    return any(keyword in header_text.lower() for keyword in relevant_headers)
-
 def download_html_files(df):
     headers = {
         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -48,10 +29,8 @@ def download_html_files(df):
     }
     download_directory = "./Outputs/UnstructuredData"
     length = len(df)
+    i = 1
     for index, row in df.iterrows():
-        if index < 19620:
-            continue
-
         article_id = row['pmcid']
         url = f"https://pmc.ncbi.nlm.nih.gov/articles/{article_id}/?report=classic"
 
@@ -72,35 +51,181 @@ def download_html_files(df):
 
         # Delay to avoid overwhelming the server
         time.sleep(1.5)  # Delay of 1.5 seconds (adjust as needed)
-    #
 
-    def beautiful_soup_scrape():
-        page_to_scrape = requests.get("http://quotes.toscrape.com")
-        soup = BeautifulSoup(page_to_scrape.text, "html.parser")
 
-        quotes = soup.findAll("span", attrs={"class": "text"})
+# Function to extract abstract and full text using Selenium
+def extract_text_with_selenium(driver, file_path):
+    try:
+        # Load the HTML file in the browser
+        driver.get(f"file:///{file_path}")
+        time.sleep(1)  # Allow time for the page to load
 
-        for quote in quotes:
-            print(quote.text)
+        # Extract the abstract
+        try:
+            abstract_text_sections = []
+            abstract_elements = driver.find_elements(By.CLASS_NAME, 'abstract')
+            for abstract_element in abstract_elements:
+                abstract_text_sections.append(abstract_element.text)
+            abstract_text = ' '.join(abstract_text_sections)
+        except Exception:
+            abstract_text = None
 
-    def fetch_relevant_columns(row, driver):
-        """
-        Iterate in page, locate data, take inner text inside of section
-        :return:
-        """
+        # Extract all sections with IDs like 'sec1', 'sec2', etc.
+        full_text_sections = []
+        try:
+            sections = driver.find_elements(By.CSS_SELECTOR, "section[id^='sec']:not(.abstract), section[id^='s']:not(.abstract)")
+            for section in sections:
+                full_text_sections.append(section.text)
+            full_text = ' '.join(full_text_sections)
+        except Exception:
+            full_text = None
 
-        # Find all sections and headers
-        extracted_data = {}
-        for section in driver.find_all(['section', 'div', 'h1', 'h2', 'h3', 'h4', 'h5']):
-            # Look for headers within the section
-            header = section.find(['h1', 'h2', 'h3', 'h4', 'h5'])
-            if header and is_relevant_header(header.text):
-                # Extract text under the relevant section
-                section_title = header.text.strip()
-                section_content = section.get_text(separator="\n", strip=True)
-                extracted_data[section_title] = section_content
+        return abstract_text, full_text
+    except Exception as e:
+        print(f"Error processing file {file_path}: {e}")
+        return None, None
+import json
+def scrape_full_text(df):
+    # Initialize Selenium WebDriver
+    options = webdriver.ChromeOptions()
+    options.page_load_strategy = 'normal'
 
-    def fetch_html_pages_with_selenium(url, page_limit=10):
+    driver = webdriver.Chrome(service=Service('./chromedriver.exe'), options=options)
+    # input_directory = "/Outputs/UnstructuredData"
+    length = len(df)
+    i = 1
+    for index, row in df.iterrows():
+        print(f"{i}/{length}")
+        article_id = row['pmcid']
+        file_path = f"{os.getcwd()}/Outputs/UnstructuredData/{article_id}.html"
+        if os.path.exists(file_path):
+            # Extract abstract and full text
+            abstract_text, full_text = extract_text_with_selenium(driver, file_path)
+
+            record = {
+                "abstract": row['abstract'] if not pd.isna(row['abstract']) else abstract_text,
+                "full_text": full_text
+            }
+
+            with open(f"{os.getcwd()}/Outputs/Data/FullText/{article_id}.ndjson", "a") as f:
+                f.write(json.dumps(record))
+            # Update DataFrame
+            # if pd.isna(row['abstract']) or not row['abstract']:
+                #df.at[index, 'abstract'] = abstract_text
+            #df.at[index, 'full_text'] = full_text
+            #df.to_csv('./Outputs/Data/FullText.csv', index=False)
+        else:
+            print(f"File not found: {file_path}")
+        i = i + 1
+
+    driver.quit()
+#
+# import transformer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import pipeline
+# from gensim.summarization import summarize
+
+def call_gpt_2(document_text):
+    """ Code adapted from https://www.linkedin.com/pulse/how-develop-gpt-2-based-application-dhiraj-patra/ """
+    """ Prompt from https://community.openai.com/t/prompt-engineering-for-rag/621495/2"""
+
+    # xi haga hekk irridu naghmlu
+    # summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    # summarized = summarize(document_text, word_count=990, do_sample=False)
+    # TODO: further work in summarizer
+    prompt = f"""DOCUMENT:
+                {document_text}
+                
+                QUESTION: How can the above unstructured scientific article be summarized to serve as input for a 
+                scientific RAG-based application, focusing on key findings and results, while considering 
+                pre-processing, dense and sparse retrieval mechanisms, and query augmentation strategies? 
+                
+                INSTRUCTIONS:
+                    Answer the users QUESTION using the DOCUMENT text above
+                    Keep your answer ground in the facts of the DOCUMENT
+                    If the DOCUMENT doesn’t contain the facts to answer the QUESTION return NONE else summarise""".format(
+        doc=document_text)
+
+    # Load the GPT-2 model
+    # Params here https://huggingface.co/docs/transformers/en/model_doc/gpt2
+    model_name = "gpt2"
+    model = GPT2LMHeadModel.from_pretrained(model_name)
+    tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+
+    # tokenize the prompt
+    input_ids = tokenizer.encode(prompt, add_special_tokens=True, return_tensors="pt")
+    # if input_ids.shape[1] > 1024:
+    #     print('truncated')
+    #     input_ids = input_ids[:, :1024]  # Truncate to max tokens
+
+    # generate the summaries
+    output = model.generate(
+        input_ids,
+        attention_mask=input_ids,
+        pad_token_id=tokenizer.eos_token_id,
+        max_length=1024,
+        num_return_sequences=1,
+        no_repeat_ngram_size=2,
+        temperature=0.7,
+        top_k=50,
+        top_p=0.95
+    )
+
+    summary = tokenizer.decode(output[0], skip_special_tokens=True)
+    print(summary)
+    print()
+
+    return summary
+
+def summarise_full_text(df):
+    print(df.info())
+    for index, row in df.head(5).iterrows():
+        # print(row['full_text'])
+        if pd.isna(row['full_text']):
+            print(f'No data at {index}')
+        else:
+            df['summary'] = call_gpt_2(row['full_text'])
+    df.to_csv('./Outputs/Data/CORD_Data_With_Summary_POC.csv', index=False)
+
+# Define relevant headers
+relevant_headers = [
+    "abstract", "title", "introduction", "discussion", "results",
+    "methods", "materials", "methods", "conclusion", "summary",
+    "keywords", "figures", "tables", "analysis", "comparison"
+]
+
+# Normalize text for comparison
+def is_relevant_header(header_text):
+    return any(keyword in header_text.lower() for keyword in relevant_headers)
+
+
+def beautiful_soup_scrape():
+    page_to_scrape = requests.get("http://quotes.toscrape.com")
+    soup = BeautifulSoup(page_to_scrape.text, "html.parser")
+
+    quotes = soup.findAll("span", attrs={"class": "text"})
+
+    for quote in quotes:
+        print(quote.text)
+
+def fetch_relevant_columns(row, driver):
+    """
+    Iterate in page, locate data, take inner text inside of section
+    :return:
+    """
+
+    # Find all sections and headers
+    extracted_data = {}
+    for section in driver.find_all(['section', 'div', 'h1', 'h2', 'h3', 'h4', 'h5']):
+        # Look for headers within the section
+        header = section.find(['h1', 'h2', 'h3', 'h4', 'h5'])
+        if header and is_relevant_header(header.text):
+            # Extract text under the relevant section
+            section_title = header.text.strip()
+            section_content = section.get_text(separator="\n", strip=True)
+            extracted_data[section_title] = section_content
+
+def fetch_html_pages_with_selenium(url, page_limit=10):
         """
         Use Selenium to navigate and retrieve multiple pages of HTML content.
         """
