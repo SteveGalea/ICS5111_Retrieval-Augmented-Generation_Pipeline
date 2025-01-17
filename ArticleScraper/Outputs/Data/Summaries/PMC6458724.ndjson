@@ -1,0 +1,1 @@
+{"summary": "the longest common subsequence (LCS) among sequences is NP-hard. this is an important problem in bioinformatics for DNA sequence alignment and pattern discovery. we propose new CPU-based parallel implementations that can provide significant advantages in terms of execution times and monetary cost."}
