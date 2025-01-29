@@ -20,13 +20,13 @@ def cord_19_data_keep_only_has_full_text_df(df):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv'))
+    # df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv'))
     # scraper.download_html_files(df)
-    scraper.scrape_full_text(df)
+    # scraper.scrape_full_text(df)
 
-    # df = pd.read_csv('./Outputs/Data/CORD_Data.csv')
+    df = pd.read_csv('./Outputs/Data/CORD_Data.csv')
     # df_clean = text_helper.lemmatise(df)
-    # scraper.summarise_full_text(df)
+    scraper.summarise_full_text(df)
 
 
 

@@ -84,6 +84,7 @@ def extract_text_with_selenium(driver, file_path):
     except Exception as e:
         print(f"Error processing file {file_path}: {e}")
         return None, None
+
 import json
 def scrape_full_text(df):
     # Initialize Selenium WebDriver
@@ -125,7 +126,8 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from transformers import pipeline
 # from gensim.summarization import summarize
 
-def call_gpt_2(document_text):
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+def call_t5_main_prompt(document_text):
     """ Code adapted from https://www.linkedin.com/pulse/how-develop-gpt-2-based-application-dhiraj-patra/ """
     """ Prompt from https://community.openai.com/t/prompt-engineering-for-rag/621495/2"""
 
@@ -135,6 +137,48 @@ def call_gpt_2(document_text):
     # TODO: further work in summarizer
     prompt = f"""DOCUMENT:
                 {document_text}
+                
+                QUESTION: How can the above unstructured scientific article be summarized to serve as input for a 
+                scientific RAG-based application, focusing on key findings and results, while considering 
+                pre-processing, dense and sparse retrieval mechanisms, and query augmentation strategies? 
+                
+                INSTRUCTIONS:
+                    Answer the users QUESTION using the DOCUMENT text above
+                    Keep your answer ground in the facts of the DOCUMENT
+                    If the DOCUMENT doesn’t contain the facts to answer the QUESTION return NONE else summarise""".format(
+        doc=document_text)
+
+    # Load the GPT-2 model
+    # Params here https://huggingface.co/docs/transformers/en/model_doc/gpt2
+    tokenizer = T5Tokenizer.from_pretrained("google-t5/t5-small")
+    model = T5ForConditionalGeneration.from_pretrained("google-t5/t5-large")
+
+    # tokenize the prompt
+    input_ids = tokenizer.encode(prompt, add_special_tokens=True, return_tensors="pt")
+    # if input_ids.shape[1] > 1024:
+    #     print('truncated')
+    #     input_ids = input_ids[:, :1024]  # Truncate to max tokens
+
+    # generate the summaries
+    outputs = model.generate(
+        input_ids
+    )
+
+    summary = " ".join([tokenizer.decode(output, skip_special_tokens=True) for output in outputs])
+    print(summary)
+    print()
+
+    return summary
+def call_gpt_2_main_prompt(document_text):
+    """ Code adapted from https://www.linkedin.com/pulse/how-develop-gpt-2-based-application-dhiraj-patra/ """
+    """ Prompt from https://community.openai.com/t/prompt-engineering-for-rag/621495/2"""
+
+    # xi haga hekk irridu naghmlu
+    # summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    # summarized = summarize(document_text, word_count=990, do_sample=False)
+    # TODO: further work in summarizer
+    prompt = f"""DOCUMENT:
+                I am a sample document
                 
                 QUESTION: How can the above unstructured scientific article be summarized to serve as input for a 
                 scientific RAG-based application, focusing on key findings and results, while considering 
@@ -184,7 +228,8 @@ def summarise_full_text(df):
         if pd.isna(row['full_text']):
             print(f'No data at {index}')
         else:
-            df['summary'] = call_gpt_2(row['full_text'])
+            # df['summary'] = call_gpt_2_main_prompt(row['full_text'])
+            df['summary'] = call_t5_main_prompt(row['full_text'])
     df.to_csv('./Outputs/Data/CORD_Data_With_Summary_POC.csv', index=False)
 
 # Define relevant headers
