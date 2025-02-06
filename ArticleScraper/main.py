@@ -1,11 +1,6 @@
 from Scraper import generic_scraper as scraper
-from Scraper import text_helper as text_helper
 import pandas as pd
 
-
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 def cord_19_data_keep_only_has_full_text_df(df):
     df["pmcid"] = df["pmcid"].astype(str)
@@ -17,16 +12,14 @@ def cord_19_data_keep_only_has_full_text_df(df):
     return ret
 
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv'))
-    # scraper.download_html_files(df)
-    # scraper.scrape_full_text(df)
+    # pass 1 - extract data necessary
+    df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv')).head(1)
+    # pass 2a - download snapshot
+    scraper.download_html_files(df)
+    # pass 2b - scrape full_text from saved snapshots
+    scraper.scrape_full_text(df)
 
-    df = pd.read_csv('./Outputs/Data/CORD_Data.csv')
-    # df_clean = text_helper.lemmatise(df)
-    scraper.summarise_full_text(df)
 
 
 
