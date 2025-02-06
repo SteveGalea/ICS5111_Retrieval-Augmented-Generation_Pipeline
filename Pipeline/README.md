@@ -12,6 +12,6 @@
     - EVALUATION PROMPTS GENERATED FROM Zephyr 7B Beta compatible prompts + each prompt manually fed into GPT https://chatgpt.com/share/67a370e3-996c-800b-b619-ed9e17a68828 
 
 # Process flows can be seen in these diagrams:
-![alt text](ICS5111\ Diagram\ 1.png)
-![alt text](ICS5111\ Diagram\ 2.png)
-![alt text](ICS5111\ Diagram\ 3.png)
+![screenshot](ICS5111_Diagram_1.png)
+![screenshot](ICS5111_Diagram_2.png)
+![screenshot](ICS5111_Diagram_3.png)
