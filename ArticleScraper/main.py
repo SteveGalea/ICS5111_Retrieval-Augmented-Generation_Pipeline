@@ -14,11 +14,11 @@ def cord_19_data_keep_only_has_full_text_df(df):
 
 if __name__ == '__main__':
     # pass 1 - extract data necessary
-    df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv')).head(1)
+    df = cord_19_data_keep_only_has_full_text_df(pd.read_csv('./Inputs/cord-19_2020-03-20/metadata.csv'))##.head(1)
     # pass 2a - download snapshot
-    scraper.download_html_files(df)
+    scraper.download_html_files(df) # API GET REQUESTS carried out December 2024
     # pass 2b - scrape full_text from saved snapshots
-    scraper.scrape_full_text(df)
+    scraper.scrape_full_text(df) # loads downloaded unstructured HTML files
 
 
 
