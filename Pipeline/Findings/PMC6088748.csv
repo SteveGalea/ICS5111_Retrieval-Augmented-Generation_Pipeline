@@ -1,0 +1,11 @@
+finding,pubmed_id,finding_id
+"The concept of cryptic sites in proteins, which are binding pockets that are not detected in unbound structures but become apparent upon ligand binding, has gained significant attention in recent years due to the potential of identifying new drug targets.",PMC6088748,PMC6088748_0
+"The CASP (Critical Assessment of Structure Prediction) experiment, which challenges the community to predict protein structures based on amino acid sequences, has revealed that the majority of proteins have ligand-binding pockets that are cryptic in the unbound state.",PMC6088748,PMC6088748_1
+"A rigorous definition of cryptic sites requires the selection of an ensemble of unbound structures to consider, as some proteins may have different conformations in different unbound structures.",PMC6088748,PMC6088748_2
+"Many cryptic sites are druggable, with around 80% of proteins in a set of 4857 having known high-affinity ligands binding at cryptic sites.",PMC6088748,PMC6088748_3
+"Allosteric sites, which are frequently identified as cryptic, have become increasingly important as drug targets due to the ability to bind several substrates or to exclude bulk water from the active site.",PMC6088748,PMC6088748_4
+"The expansion of existing pockets by larger ligands is a very interesting but largely unsolved problem, as it can lead to the identification of additional binding sites.",PMC6088748,PMC6088748_5
+"Molecular dynamics simulations can identify prospective cryptic sites, but their results require further validation to distinguish between transient pockets that are most likely not druggable and those that are.",PMC6088748,PMC6088748_6
+"The combined use of residue physico-chemical properties, pocket shape, sequence conservation, and fragment docking as features in a machine learning algorithm is recommended for reliable cryptic site prediction.",PMC6088748,PMC6088748_7
+"The analysis of protein structures with validated cryptic sites shows that among the pockets that are seen to open during molecular dynamics simulations, only one or two may be capable of binding a ligand with substantial affinity.",PMC6088748,PMC6088748_8
+"The opening of cryptic sites is usually due to changes only in side chain conformations, and such sites typically have low ligand binding affinity.",PMC6088748,PMC6088748_9

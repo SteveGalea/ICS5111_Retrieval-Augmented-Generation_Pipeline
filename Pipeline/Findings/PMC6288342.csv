@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"Short-read RNA sequencing (RNA-seq) is a widely used technique for profiling gene expression, but it has limitations in studying viral transcriptomes due to the presence of polycistronic gene arrays, alternative splicing, and low yields of viral RNA.",PMC6288342,PMC6288342_0
+"Long-read RNA-seq enables the sequencing of full-length RNAs, including polycistronic transcripts and alternative splicing variants, and can be used to study viral transcriptomes at a high resolution.",PMC6288342,PMC6288342_1
+Single-cell RNA-seq (scRNA-seq) allows the dissection of heterogeneous cell populations and the identification of unique cell types and viral markers.,PMC6288342,PMC6288342_2
+"Nanopore RNA-seq, a type of long-read RNA-seq, offers a simple library preparation protocol and a high accuracy in mapping sequence reads to a reference genome, as well as the ability to estimate poly(A) tail lengths and identify specific RNA modifications.",PMC6288342,PMC6288342_3
+"The integration of bioinformaticians into research labs is crucial for turning raw sequencing data into biologically relevant gene expression lists supported by statistical significance values, and for optimizing analytical pipelines to avoid critical issues that might otherwise necessitate experimental redesign and resequencing.",PMC6288342,PMC6288342_4

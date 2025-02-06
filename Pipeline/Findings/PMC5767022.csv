@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"Poultry trading practices vary by size of live bird markets (LBMs) and type of poultry. Industrial broiler chickens are sold near production areas, while ducks and backyard chickens are moved over longer distances with multiple intermediaries.",PMC5767022,PMC5767022_0
+"The poultry trading network is highly connected and disassortative, with industrial broiler chickens sold in LBMs close to production areas, while ducks and backyard chickens are moved over longer distances.",PMC5767022,PMC5767022_1
+Removing just 5.6% of nodes (25 LBMs with highest betweenness scores) significantly reduces network connectedness and the size of output and input domains by more than 50%.,PMC5767022,PMC5767022_2
+Discriminating poultry types is necessary to understand how trading networks are shaped and the level of risk of disease spread they promote.,PMC5767022,PMC5767022_3
+Understanding the network structure could inform targeted control and surveillance interventions.,PMC5767022,PMC5767022_4

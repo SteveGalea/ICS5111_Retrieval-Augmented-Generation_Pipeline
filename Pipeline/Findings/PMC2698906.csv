@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The newly developed ires search system (irss) combines two key steps, namely RNA folding and comparison, to predict ires elements.",PMC2698906,PMC2698906_0
+"RNA folding program predicts RNA secondary structures by the minimum free energy method, while comparison matches known ires structures and predicts potential candidate ires elements.",PMC2698906,PMC2698906_1
+"Linear discriminant analysis (LDA) is used to analyze R values, which are ratios of alignment match length to distance score, to distinguish candidate ires groups from non-ires groups.",PMC2698906,PMC2698906_2
+The error rate of the ires search system is estimated by comparing known ires structures to candidate ires elements.,PMC2698906,PMC2698906_3
+"The study aims to identify ires domain IV (nucleotides 240-444) from four different whole virus sequences, including EV71, BEV, HRV, and HCV, using the ires search system, and to understand the precision of the system by analyzing the entire virus 5' UTR database and the target, HCV domain III, at the initiation codon in the ribosomal mRNA binding cleft by binding the 40S subunit.",PMC2698906,PMC2698906_4

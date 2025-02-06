@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The MERS-CoV RT-RPA assay developed by the authors has a sensitivity of 101 rna molecules detected, which is similar to the sensitivity of the NC real-time RT-PCR assay at 101 rna molecules.",PMC3871419,PMC3871419_0
+"The MERS-CoV RT-RPA assay has a faster run time compared to the NC real-time RT-PCR assay, with a maximum run time of 7 minutes versus up to 2 hours for the RT-PCR.",PMC3871419,PMC3871419_1
+"The MERS-CoV RT-RPA assay is specific for MERS-CoV and does not cross-react with other viruses causing similar clinical symptoms, as tested on a variety of coronaviruses and respiratory viruses listed in the text.",PMC3871419,PMC3871419_2
+The MERS-CoV RT-RPA assay has a limit of detection at 95% probability (21 rna molecules) as determined by probit regression analysis.,PMC3871419,PMC3871419_3
+"The MERS-CoV RT-RPA assay has a lower detection limit compared to the NC real-time RT-PCR assay and the ORF1a 3 and NC real-time RT-PCR assays, as it can detect down to a dilution of 10-5, corresponding to 7.5 genome equivalents/reaction.",PMC3871419,PMC3871419_4

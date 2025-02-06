@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study analyzed 1,266 h3-ha sequences from seven geographic regions, including Hong Kong, with temporally overlapping influenza epidemics, to understand the global circulation of influenza a virus.",PMC3228450,PMC3228450_0
+The study used a nonreversible continuous-time markov-chain model to estimate viral migration through discrete geographic regions and the general patterns of global circulation of influenza a virus.,PMC3228450,PMC3228450_1
+"The study found no evidence for viral reassortment, a potential confounder, in the analyses.",PMC3228450,PMC3228450_2
+The study assumed there was seasonality in Southeast Asia and Hong Kong to discriminate between migration events corresponding to and from the northern and southern epidemic seasons and to assess persistence of viral populations in Southeast Asia and Hong Kong.,PMC3228450,PMC3228450_3
+"The study found statistical supports for viral migration, with bf > 100 indicating decisive support, whereas 6 ≤ bf ≤ 10, 10 ≤ bf ≤ 30, and 30 ≤ bf ≤ 100 indicating substantial, strong, and very strong statistical support, respectively.",PMC3228450,PMC3228450_4

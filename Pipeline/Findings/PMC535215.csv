@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"Lack of conservation, more than lack of uniqueness, limits the ability to find species-specific, species-wide DNA signatures for most viruses, requiring more target than nn sequence data (table 1).",PMC535215,PMC535215_0
+"Nn sequence information is critical to eliminate signature candidates that are not species specific for variola and vaccinia, with nn sequences facilitating signature prediction for other double-stranded DNA viruses but not necessarily for all (fig. 2).",PMC535215,PMC535215_1
+"For SARS and Ebola Zaire, nn sequence information is also critical to eliminate signature candidates that might cross-react in the field, but currently, no close nn sequences have been sequenced to reduce the pool of candidates (fig. 3).",PMC535215,PMC535215_2
+"Double-stranded DNA viruses are generally more conserved among strains than are RNA viruses, with at least one conserved signature candidate for dna viruses and zero conserved signature candidates for rna viruses (summary of results).",PMC535215,PMC535215_3
+"JC virus, the shortest double-stranded DNA virus analyzed, has relatively high sequence conservation, with 23 taqman signature candidate shared among at least 75% of the 187 JC genomes (summary of results).",PMC535215,PMC535215_4

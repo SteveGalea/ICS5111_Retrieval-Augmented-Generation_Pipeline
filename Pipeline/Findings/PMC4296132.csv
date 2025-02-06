@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"A study using search activity from Uptodate, a healthcare database, and the Centers for Disease Control and Prevention (CDC) data found that a dynamic multivariate methodology using search activity accurately predicts influenza activity in real-time, outperforming Google Flu Trends (GFT) estimates during the prediction period.",PMC4296132,PMC4296132_0
+"The relevance of search terms in predicting influenza activity changes over time, with clinicians' tamiflu search activity being the strongest predictor, while sinusitis, influenza, H1N1, and coronavirus display relevance as predictors during different time periods.",PMC4296132,PMC4296132_1
+The success of the methodology suggests that low volumes of queries in subject-matter expert databases provide a promising way to identify meaningful signals to track influenza activity.,PMC4296132,PMC4296132_2
+"The study's findings suggest that data from specialized databases, such as Uptodate, may have an improved signal-to-noise ratio and be less likely to be impacted by public disruption resulting from anxiety or media reports during outbreaks of influenza.",PMC4296132,PMC4296132_3
+"The study highlights the potential usefulness and limitations of digital data sources, such as search query data, for infectious disease surveillance.",PMC4296132,PMC4296132_4

@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study aimed to evaluate whether there is a significant difference in the expression of mir-195-5p between normal, non-collapse, and collapse areas of femoral heads in steroid-induced osteonecrosis patients.",PMC5522094,PMC5522094_0
+The study used a 2-delta delta CT method to analyze the microarray data and found that the expression of mir-195-5p in the collapse area was significantly lower than in the non-collapse area and significantly lower than in the normal area.,PMC5522094,PMC5522094_1
+"The study also used bioinformatics tools to predict target genes of mir-195-5p and found enrichment in the categories of biological processes, cellular components, and molecular functions, as well as significant correlation with specific pathways related to the conditions.",PMC5522094,PMC5522094_2
+The study used rt-PCR to verify the differential expression of mir-195-5p in the samples and found that the expression in the collapse area was significantly lower than in the non-collapse area and significantly lower than in the normal area.,PMC5522094,PMC5522094_3
+The study also used go and kegg analysis to further investigate the functions and pathways related to the differential expression of mir-195-5p.,PMC5522094,PMC5522094_4

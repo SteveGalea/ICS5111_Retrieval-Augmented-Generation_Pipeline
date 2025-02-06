@@ -1,0 +1,7 @@
+finding,pubmed_id,finding_id
+"In the punctuated scenario, there is little warning of adaptation as the majority of introductions go extinct without transmission. Only 0.16% of outbreaks exceed two cases.",PMC2825776,PMC2825776_0
+"In the gradual scenario, there is a broader range of cluster sizes before emergence due to the state marginally below pandemic capability (r0 = 0.9).",PMC2825776,PMC2825776_1
+A pathogen with gradually increasing fitness and an adaptive stage marginally below pandemic capability is most likely to signal ongoing adaptation by causing large but self-limiting outbreaks.,PMC2825776,PMC2825776_2
+"If a pathogen causes many hundreds of cases yet fails to show any sustained human transmission, it does not necessarily mean that the pathogen is incapable of adapting for human transmission. Even in the punctuated scenario, emergence can occur without any prior signs of increasing fitness.",PMC2825776,PMC2825776_3
+"The first 100 cases without emergence indicate a very low probability of emergence per introduction. Beyond this point, continuing failed cases give little more information about the adaptability of the pathogen.",PMC2825776,PMC2825776_4
+"A simple non-parametric method for detection of emergence that does not rely on knowledge of the reproductive fitness parameters is suggested. The double approach, which additionally monitors the daily incidence, shows an appreciably better performance in sensitivity, more consistently, than the single approach, while causing some specificity.",PMC2825776,PMC2825776_5

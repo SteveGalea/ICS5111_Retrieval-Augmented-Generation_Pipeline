@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study developed a novel method to produce recombinant H7 proteins in E. Coli BL21, which involves the addition of a C-terminal histidine tag to the m protein and its subsequent purification through immobilized metal affinity chromatography (IMAC).",PMC6744225,PMC6744225_0
+"The study found that a 6xHis-m153-226 protein was successfully produced using this method, and its binding to target cells was not inhibited by anti-m antibody.",PMC6744225,PMC6744225_1
+The study also demonstrated that the addition of a 6xHis-tag to the m protein did not significantly affect the binding of hcov-nl63 to target cells.,PMC6744225,PMC6744225_2
+The study used a cellulose membrane displaying 54 immobilized peptides to predict the topology of the m protein.,PMC6744225,PMC6744225_3
+"The study used the peptide array to analyze the binding of the m protein to target cells, and found that the m protein has a cytoplasmic domain and a transmembrane domain.",PMC6744225,PMC6744225_4

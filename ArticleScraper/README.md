@@ -9,5 +9,6 @@ Python 3.10
 Chrome web driver https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/win64/chromedriver-win64.zip
 download and extract but don't commit
 
+Setup VENV, ensure Datasets are present and proceed with running main.py
 
-Requires installation of pytorch (for GPT models) https://pytorch.org/get-started/locally/#anaconda
+

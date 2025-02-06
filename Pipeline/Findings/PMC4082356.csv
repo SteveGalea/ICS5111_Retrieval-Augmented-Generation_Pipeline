@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The authors present a methodology for comparing organisms based on their metabolic networks, which has been successfully applied to reconstruct phylogenetic trees for various organisms from different families and kingdoms.",PMC4082356,PMC4082356_0
+"The resulting trees align well with the ""tree of life"" and most branches are in their expected positions, with distances that are in good correlation with evolutionary distances.",PMC4082356,PMC4082356_1
+"The authors explain discrepancies found in some organisms, such as those with significant genome reductions resulting in reduced metabolisms.",PMC4082356,PMC4082356_2
+"The methodology is innovative because it is not based on the structure and evolution of proteins or DNA, but on metabolism and components' and metabolic capabilities' comparison, allowing for comparison of organisms distant from the evolutionary point of view or for which orthologs' comparison is difficult.",PMC4082356,PMC4082356_3
+"The authors suggest that metabolic network connectivity can be used to build phylogenetic trees that are consistent with gene-directed trees, and that their methodology is robust even if the annotation information used to construct metabolic models is imperfect, with an upper bound for the uncertainty in the distance parameter of approximately 5%.",PMC4082356,PMC4082356_4

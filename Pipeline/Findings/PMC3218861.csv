@@ -1,0 +1,11 @@
+finding,pubmed_id,finding_id
+The study describes the development and use of a customizable microarray platform for genotyping and copy number variation analysis in Plasmodium falciparum.,PMC3218861,PMC3218861_0
+"The platform allows for the rapid and accurate genotyping of over 5,000 single nucleotide polymorphisms in a single experiment, as well as the detection of copy number variation events.",PMC3218861,PMC3218861_1
+"The platform uses a customized version of the nimblegen 3-plex microarray chip, which allows for the incorporation of probe replicates to mitigate noise inherent in base calling methods and the use of custom perl scripts to calculate a background-corrected ratio of signal intensity for base calls.",PMC3218861,PMC3218861_2
+"The platform enables the identification of copy number variation breakpoints between hybridizations in individual parasite clones, including the Plasmodium falciparum multidrug resistance gene, pfmdr1.",PMC3218861,PMC3218861_3
+"The study highlights the consistency of probe melting temperature in exons, introns, and intergenic regions, with probes with approximately 66°C melting temperature providing the best performance in all regions.",PMC3218861,PMC3218861_4
+The study also demonstrates data reproducibility in cgh data through scatterplots for individual copy number variation events detected in replicate hybridizations from independent labeling reactions.,PMC3218861,PMC3218861_5
+"The study notes the use of whole genome amplification (wga) field samples to detect copy number variation events, with four genes affected by a cnv event detected in one such sample.",PMC3218861,PMC3218861_6
+The study acknowledges funding support from the National Institutes of Health and the Southwest Foundation for Biomedical Research.,PMC3218861,PMC3218861_7
+The study thanks several institutions and individuals for technical support.,PMC3218861,PMC3218861_8
+"The study emphasizes the importance of customizable microarray platforms in population genetics studies, particularly in the context of the high atopy and genetic heterogeneity of Plasmodium falciparum.",PMC3218861,PMC3218861_9

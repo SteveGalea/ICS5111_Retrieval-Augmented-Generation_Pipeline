@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study aimed to develop a statistical model to quantify the risk of MERS importation at the country level using openly accessible data, including airline transportation networks.",PMC4957429,PMC4957429_0
+"The model assumed that the hazard of MERS importation followed an inverse function of the effective distance, calculated from airline transportation data.",PMC4957429,PMC4957429_1
+"The model showed high predictive performance, with an area under the curve of 0.943 and 100% sensitivity.",PMC4957429,PMC4957429_2
+"The study identified 30 countries at highest risk of MERS importation, with 17 of those countries already reporting at least one importation.",PMC4957429,PMC4957429_3
+"The model's predictive performance was not significantly improved by including country-specific religion, suggesting that the effective distance metric is a powerful predictor of MERS importation risk.",PMC4957429,PMC4957429_4

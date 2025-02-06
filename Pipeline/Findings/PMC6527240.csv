@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The arbotyping tool, implemented in the genome detective software framework, allows for fast, accurate, and high-throughput classification of denv, chikv, and zikv species and genotypes using different sequencing products, including whole-genome sequences and envelope sequences.",PMC6527240,PMC6527240_0
+"The tool accommodates the need for consistent and accurate classification of denv, chikv, and zikv sequences, essential for implementing epidemic tracing and supporting outbreak surveillance efforts.",PMC6527240,PMC6527240_1
+"The tool was evaluated using a dataset of whole-genome sequences, as well as envelope sequences, and showed a classification performance close to that obtained using manual phylogenetic analysis and classification by the automated typing tool for all sequences in the validation datasets.",PMC6527240,PMC6527240_2
+"The tool was found to be particularly useful for classifying consensus sequences on the species and sub-species level, as well as for individual next-generation sequencing reads.",PMC6527240,PMC6527240_3
+"The tool was implemented in a user-friendly web application, available through an easy-to-use web interface, and is integrated into data management environments.",PMC6527240,PMC6527240_4

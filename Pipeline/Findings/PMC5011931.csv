@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"IRMA (Iterative Refinement Meta-Assembler) solves the problem of viral variation by iteratively optimizing read gathering and assembly, increasing both depth and breadth of reads.",PMC5011931,PMC5011931_0
+"IRMA provides on-the-fly reference editing, correction, and optional elongation without the need for additional reference selection, improving both read depth and breadth.",PMC5011931,PMC5011931_1
+"IRMA focuses on quality control, error correction, indel reporting, variant calling, and variant phasing, making it distinguished by its ability to detect and phase minor variants.",PMC5011931,PMC5011931_2
+"IRMA provides customized variant calling, phasing, and quality control, solving issues related to the genetic diversity of viruses.",PMC5011931,PMC5011931_3
+"IRMA is a robust NGS assembly solution adapted to the needs and characteristics of viral genomes, freely available for non-commercial use on Linux and macOS X and parallelized for high-throughput computing.",PMC5011931,PMC5011931_4

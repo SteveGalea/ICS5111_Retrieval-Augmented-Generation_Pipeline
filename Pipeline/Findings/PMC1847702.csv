@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study identified a new deubiquinating enzyme, eladc313s, which is a variant of the previously characterized elad. Eladc313s has a leucine substitution at position 313, which is predicted to affect its substrate specificity.",PMC1847702,PMC1847702_0
+"The study found that eladc313s has a higher affinity for ubiquitin-amc and sumo1-amc substrates compared to elad, indicating a potential role in regulating these modifications.",PMC1847702,PMC1847702_1
+"The study also identified a new deubiquinating enzyme, senp8, from the fungus Gibberella zeae. Senp8 has a higher affinity for sumoylated substrates compared to ubiquitinated substrates.",PMC1847702,PMC1847702_2
+"The study found that the deubiquinating activity of elad and eladc313s is inhibited by the presence of sumo1-amc, suggesting a potential role in regulating the balance between ubiquitination and sumoylation.",PMC1847702,PMC1847702_3
+"The study also found that the deubiquinating activity of senp8 is not affected by the presence of ubiquitin-amc or sumo1-amc, suggesting a more specific role in regulating sumoylation.",PMC1847702,PMC1847702_4

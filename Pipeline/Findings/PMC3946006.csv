@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study presented a statistical framework to estimate the basic reproductive number, r0, of spillover infections, such as avian influenza, from case incidence data alone.",PMC3946006,PMC3946006_0
+The method was tested using real data from the 2013 avian influenza A(H7N9) outbreak in China and was found to be reliable even when under-reporting of cases occurred.,PMC3946006,PMC3946006_1
+"The framework allowed for the detection of a signature of human-to-human transmission for a spillover infection from only the time series of overall clinical incidence, without relying on outbreak investigation data.",PMC3946006,PMC3946006_2
+"The study estimated that around 13% of observed cases in the three largest clusters of avian influenza A(H7N9) in China in 2013 resulted from human-to-human transmission, rather than from spillover exposure.",PMC3946006,PMC3946006_3
+The approach permitted accurate estimates of r0 from relatively small outbreaks and illustrated how being able to characterize the variation in spillover hazard over time could allow for the detection of fitness increases in the virus prior to the virus crossing the critical threshold of r0 equal to one.,PMC3946006,PMC3946006_4

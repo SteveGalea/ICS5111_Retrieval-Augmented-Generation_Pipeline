@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"NOD, the newly developed tool for predicting nucleolar localization sequences in protein sequences, has been shown to accurately predict such sequences in eukaryotic and viral proteins.",PMC3166288,PMC3166288_0
+"NOD can provide both the positions and sequences of predicted nucleolar localization sequences, as well as visualize predicted scores for each residue of a protein sequence.",PMC3166288,PMC3166288_1
+"NOD's overall sensitivity is 71%, with 79% of predicted nucleolar localization sequences being correctly identified.",PMC3166288,PMC3166288_2
+"NOD performs best for mammalian and mammalian-infecting viral proteins, but preliminary results suggest sequences from molluscs, amoebae, plants, and their viruses are also well-predicted.",PMC3166288,PMC3166288_3
+"NOD is the only predictor currently available for predicting nucleolar localization sequences in protein sequences, and it is platform-independent and freely available.",PMC3166288,PMC3166288_4

@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The core subset of approximately 5,000 concepts in SNOMED CT covers over 80% of frequently used terms in any dataset, and over half of the frequently used terms not covered are direct parents or children of core concepts.",PMC5566198,PMC5566198_0
+"A significant positive correlation exists between the size of the core subset and the coverage of frequently used terms in an incoming dataset, with term coverage approaching 100% with a subset size of 8,000 concepts.",PMC5566198,PMC5566198_1
+"The core subset provides the fastest way to find a term, as a search of the subset returns the fewest terms to choose from.",PMC5566198,PMC5566198_2
+The core subset is a more manageable target and serves as a proxy for the study of SNOMED CT.,PMC5566198,PMC5566198_3
+"The core subset is a useful resource for the implementation of SNOMED CT in electronic health records, providing over 80% coverage of frequently used terms and total usage.",PMC5566198,PMC5566198_4

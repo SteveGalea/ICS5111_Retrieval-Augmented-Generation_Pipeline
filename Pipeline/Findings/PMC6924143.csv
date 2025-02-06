@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study presents a machine learning-based method for predicting mouse Toll-like receptor 9 (TLR9) agonists based on features including motif count and position, distance between motifs, and graphically derived features.",PMC6924143,PMC6924143_0
+"Due to the imbalance in the dataset, an ensemble learning approach based on repeated random down-sampling was employed. The random forest algorithm outperformed other methods for TRL9 activity prediction.",PMC6924143,PMC6924143_1
+"Common sequence motifs, including 'cc', 'gg', 'ag', 'cccg', and 'cggc', were overrepresented in TRL9 agonists.",PMC6924143,PMC6924143_2
+"Predictions on 6,000 randomly generated oligonucleotides were ranked, and the top 100 selected odns showed high activity, confirming the accuracy of the model in predicting TRL9 activity.",PMC6924143,PMC6924143_3
+The study showed that the random forest technique is a useful method for predicting TRL9 activity due to its predictive performance and simplicity.,PMC6924143,PMC6924143_4

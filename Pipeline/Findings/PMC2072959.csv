@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The accuracy of Nimblegen's microarray-based CGS resequencing technology for detecting single nucleotide polymorphisms (SNPs) is high, with a false positive rate of one per 244,193 base pairs.",PMC2072959,PMC2072959_0
+"The false positive rate for non-called regions of interest (ROIs) is also high, with a false positive rate of one per 309,312 base pairs.",PMC2072959,PMC2072959_1
+"The study identified 10 mutations, including 2 SNPs, 7 IS-element insertions, and 1 deletion, that accumulated in strain W3110 after Kohara et al. generated the lambda library.",PMC2072959,PMC2072959_2
+"The study found that CGS has difficulty detecting insertions and inversions, particularly in regions with high local secondary structure and repeated sequences.",PMC2072959,PMC2072959_3
+The study recommends resequencing multiple replicates from the same experimental setup and screening genes containing mutations in other replicates to avoid false negatives.,PMC2072959,PMC2072959_4

@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The label-free biosensor method developed in this study, called Biosensors Integrated with Ellipsometry (BIE), has a sensitivity of 0.01 international units (IU) per milliliter for cytomegalovirus (CMV) antibodies, making it suitable for clinical mass CMV screening.",PMC4546680,PMC4546680_0
+"BIE is a multiplex screening method that can simultaneously detect CMV antibodies of different subtypes, including immunoglobulin G (IgG), in a single test.",PMC4546680,PMC4546680_1
+"BIE has a high throughput detection capacity, with the ability to simultaneously detect reactions in 48 areas on a single chip.",PMC4546680,PMC4546680_2
+"The BIE method can provide rapid screening results, with data obtained in several seconds using an imaging ellipsometer.",PMC4546680,PMC4546680_3
+"Compared to the ELISA (enzyme-linked immunosorbent assay) method, the BIE method has a lower cost and can avoid some interference factors due to its label-free design, which directly identifies the variation in surface anti-CMV IgG concentration after capturing the target without a secondary label. Additionally, the BIE method provides more agreement between ELISA and BIE after excluding the number of severe mutations.",PMC4546680,PMC4546680_4

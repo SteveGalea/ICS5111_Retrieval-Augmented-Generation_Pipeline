@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+The paper presents a new public health dataset for action recognition that includes sneezing and coughing as well as background actions.,PMC4180141,PMC4180141_0
+The technical challenges lie in distinguishing flu-like symptoms from similar background actions.,PMC4180141,PMC4180141_1
+The paper introduces two types of action matching kernels to integrate spatial-temporal layout and bag-of-words representations.,PMC4180141,PMC4180141_2
+"The proposed algorithm achieves competitive performance compared to state-of-the-arts, and is shown to be a non-trivial task on the new dataset.",PMC4180141,PMC4180141_3
+The dataset and algorithm aim to advance the field of action recognition of flu-like symptoms from videos and will be challenging to extend to real-life scenarios with multiple people in crowded environments.,PMC4180141,PMC4180141_4

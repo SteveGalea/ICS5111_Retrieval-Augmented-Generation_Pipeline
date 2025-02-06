@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The ARIMA model is a time series analysis tool used to evaluate disease management programs, with the ability to predict and study antimicrobial resistance, resource planning for critical resources during epidemics, and forecasting cases of infectious diseases.",PMC4872983,PMC4872983_0
+The ARIMA model is commonly used by health researchers due to its greater ability to predict and wide applicability compared to non-temporal techniques.,PMC4872983,PMC4872983_1
+"The identification phase involves exploring time series to identify patterns, seasonality, and cycles using autocorrelation functions and partial autocorrelation functions. If data are nonstationary, differentiation may be required.",PMC4872983,PMC4872983_2
+"The estimation and test phase involves determining AR and MA parameters, as well as seasonal and nonseasonal parameters, and evaluating the adjusted model using traditional methods such as least squares or maximal likelihood.",PMC4872983,PMC4872983_3
+"The ARIMA model should not exceed the first 12 months of a program as the first periods may not present a significant impact, and external factors such as epidemics or technological innovations may create peaks in time follow-up, requiring short time segments for analysis.",PMC4872983,PMC4872983_4

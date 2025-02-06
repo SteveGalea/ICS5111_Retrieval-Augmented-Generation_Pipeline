@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"This study identified human CD209L (also known as L-SIGN) as a receptor for SARS-CoV, in addition to the previously identified ACE2.",PMC524836,PMC524836_0
+"CD209L is expressed on type II alveolar cells and endothelial cells in human lung, which are important targets for SARS-CoV infection.",PMC524836,PMC524836_1
+CD209L is a less efficient receptor for SARS-CoV than ACE2.,PMC524836,PMC524836_2
+"The study used a strategy focused on SARS-CoV infection of human lung, which involved identifying human lung cDNAs encoding CD209L, selecting cells that bound SARS-CoV s glycoprotein, and demonstrating virus infection using multiplex RT-PCR and immunofluorescence.",PMC524836,PMC524836_3
+"The study found that all of the S-binding cho cells that were susceptible to virus entry contained CD209L cDNA from the library, but did not identify any human cDNAs encoding ACE2 or DC-SIGN.",PMC524836,PMC524836_4

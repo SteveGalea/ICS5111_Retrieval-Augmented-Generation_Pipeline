@@ -1,0 +1,10 @@
+finding,pubmed_id,finding_id
+"The study analyzed data from a large set of markers, selected using the Lasso method, to estimate influenza activity in real-time.",PMC3722273,PMC3722273_0
+"The study found that there are clear seasonal variations in influenza activity, with a marked peak at wintertime in temperate regions.",PMC3722273,PMC3722273_1
+"The study demonstrated that the Lasso method can be used to select a subset of markers and their weights to maximize the correlation with influenza activity, but there is a strong inter-dependence among the marker frequencies.",PMC3722273,PMC3722273_2
+"The study showed that optimization of the number of markers was necessary, and subsequent automatic marker selection generated a set of 40 markers.",PMC3722273,PMC3722273_3
+"The study revealed large positive coefficients assigned to markers like 'novel flu', 'lightly', 'flu', and so on, and also markers with large negative coefficients like 'surely', 'winter', 'concert', and so on.",PMC3722273,PMC3722273_4
+"The study showed that computation of the coefficients depended largely on ili surveillance reports when their value was fully available, but since ili surveillance reports come via identification of influenza viruses with a delay of up to 1–2 weeks, direct comparison of the predicted values with the ili data was not straightforward.",PMC3722273,PMC3722273_5
+"The study noted that there are clear seasonal variations in the occurrence of influenza, with a marked peak at wintertime in temperate regions, but when the previous year's seasonal ili data is absent, the prediction accuracy is significantly lower at the initial phase of the ili peak, when prediction is of most importance and enough data of the present season are not yet available to accurately perform the prediction.",PMC3722273,PMC3722273_6
+"The study found that by calculating the regression coefficients using the most recent set of data, the algorithm can easily adapt to time-varying environments, albeit slowly.",PMC3722273,PMC3722273_7
+The study proposed an adaptive algorithm for real-time prediction of influenza infection using Han-geul twitter data.,PMC3722273,PMC3722273_8

@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+The study presents a novel method for DNA library amplification based on rolling circle replication (RCA) using random primers.,PMC6882106,PMC6882106_0
+"The study found that during the amplification process, accelerated small-sized DNA fragments were preferentially amplified over larger-sized fragments in both two-primer RCA and single-primer linear RCA methods, resulting in lower uniformity.",PMC6882106,PMC6882106_1
+"The study introduced a microarray oligonucleotide library consisting of a thousand unique 150 bp sequences with 30 bp flanking sequences at both ends, which is complementary to the RCA primer, enabling their use as a primer pair for PCR.",PMC6882106,PMC6882106_2
+"The study found that during the PCR step, the microarray oligonucleotide library preferentially amplified over the RCA products, potentially due to differences in polymerases used for PCR and RCA.",PMC6882106,PMC6882106_3
+"The study also found that during the analysis of sequencing data, the substitution error rate showed a similar trend as that of the NGS substitution error rate ratio, but further optimization is needed to prove it.",PMC6882106,PMC6882106_4

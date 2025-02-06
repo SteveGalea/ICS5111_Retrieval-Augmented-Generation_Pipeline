@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"Analysis of 495 near full-length hiv-1 group m sequences reveals that only 5.2% of possible 21-mers are >50% conserved, with highly conserved regions including regulatory domains and essential sequences for viral replication.",PMC2204037,PMC2204037_0
+Targeting these highly conserved regions with antiviral siRNAs overwhelms sequence diversity and reduces chances of viral mutational escape.,PMC2204037,PMC2204037_1
+"A total of 216 highly conserved targets were identified, with 31 predicted functional by guidelines for siRNA selection.",PMC2204037,PMC2204037_2
+"Validation of 41 siRNAs against four hiv-1 strains revealed that 26 of them effectively inhibited viral replication by >80%, with some viral strains exhibiting nucleotide substitutions in target sites that abolished inhibition.",PMC2204037,PMC2204037_3
+"Highly effective siRNAs with maximal conservation identified include si521 (poly a site, 94% conservation), si764/770 (ψ, 88%), si510 (tar/poly a, 84%), si2075 (ribosomal slip site, 70%), and si4750/4751/4753 (integrase region, 71-74%). These regions are found mostly in the 5' ltr, protease, and integrase.",PMC2204037,PMC2204037_4

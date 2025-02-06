@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study found that the frequency of reports about particular pathogens is related not to their associated morbidity or mortality impact, but rather to the direct or potential economic and social disruption caused by the outbreak.",PMC2443186,PMC2443186_0
+"The study found that over the evaluation time period, 174 countries had reports of infectious disease outbreaks, with the greatest reporting from the United States, the United Kingdom, Canada, and China.",PMC2443186,PMC2443186_1
+"The study found that there was a clear bias towards increased reporting from countries with higher numbers of media outlets, more developed public health resources, and greater availability of electronic communication infrastructure.",PMC2443186,PMC2443186_2
+"The study found that the system characterizes disease outbreak reports by means of a series of text mining algorithms, including identifying disease and location, determining relevance, and grouping similar reports together while removing exact duplicates.",PMC2443186,PMC2443186_3
+"The study found that the system generates meta-alerts of disease outbreaks by calculating a composite activity score based on the reliability of the data source and the number of unique data sources, with increased weight to multiple types of information and conflict resolution.",PMC2443186,PMC2443186_4

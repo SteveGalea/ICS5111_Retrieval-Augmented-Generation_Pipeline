@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The study found that while human coronaviruses do not have similar structural and nonstructural protein sequences, it is possible to design an epitope-based universal vaccine for all human coronavirus strains.",PMC4041900,PMC4041900_0
+"The study used multiple sequence alignments and conserved region analysis to identify conserved regions in the spike, envelope, membrane, and nucleocapsid proteins of all human coronaviruses isolates.",PMC4041900,PMC4041900_1
+The study used emini surface accessibility prediction tool to predict the surface accessible epitope of the conserved peptide in the replicase polyprotein 1ab of all human coronaviruses.,PMC4041900,PMC4041900_2
+The study used i-tasser server to predict a protein 3D model as the experimental structure of the RNA-directed RNA polymerase protein of any human coronavirus isolate.,PMC4041900,PMC4041900_3
+"The study found that while there is no conservation in the spike proteins of all human coronaviruses isolates, there is conservation in their replicase polyprotein 1ab.",PMC4041900,PMC4041900_4

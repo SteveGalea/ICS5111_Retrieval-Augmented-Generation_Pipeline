@@ -1,0 +1,10 @@
+finding,pubmed_id,finding_id
+"Chen et al. (2015) identified that RNF166, a ring finger protein, enhances the ubiquitination of TRAF3 and TRAF6, which leads to increased production of interferon-β in response to RNA virus infection.",PMC4600972,PMC4600972_0
+The study involved generating stable knockout cell lines for TRAF3 and TRAF6 in HEK293T cells using the CRISPR/Cas9 system.,PMC4600972,PMC4600972_1
+"The authors found that five pairs of guide RNAs (gRNAs) were designed and transfected into HEK293T cells to target TRAF3 or TRAF6, and the genomic DNA was extracted for PCR amplification and indels were confirmed by sequencing to identify gene-knockout cell lines.",PMC4600972,PMC4600972_2
+"The study also involved extracting the genomic DNA from cells 72 hours after selection and diluting the confirmed cell pools to generate monoclones, which were then tested by Western blot using TRAF3 or TRAF6 antibody to identify gene-knockout cell lines.",PMC4600972,PMC4600972_3
+"Chen et al. (2015) found that the gRNA target site for TRAF3 was CCAGTTTTTGTCCCTGAACA, and the gRNA target site for TRAF6 was GTCTGAAGTGACTGCCTTCT-3′.",PMC4600972,PMC4600972_4
+"Statistical analysis, specifically two-way ANOVA, was used to analyze the data in the study.",PMC4600972,PMC4600972_5
+"The study was repeated at least three times, and results were considered significant at p < 0.05.",PMC4600972,PMC4600972_6
+The authors used a dual-specific luciferase assay system (Luminescence) to measure the relative expression changes of IFN-β in response to RNA virus infection.,PMC4600972,PMC4600972_7
+"The authors also used the qPCR method to calculate relative expression changes, and the gene-specific primers used were IFN-β (5′-AGGACAGTTGACTTTGAC-3′ and 5′-TGGAAGACAATTTGAC-3′), β-actin (5′-ACGTGGACCCGCCAAGAC-3′ and 5′-CAAAG",PMC4600972,PMC4600972_8

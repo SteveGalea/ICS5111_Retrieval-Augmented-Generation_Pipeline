@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"The authors estimated the time of the last common ancestor of the SARS coronavirus strains to be around August or September 2002, which is in accordance with epidemic investigations.",PMC516801,PMC516801_0
+"The authors found that the evolution rate of the SARS coronavirus is around 0.16 base/day, which is similar to the reported evolution rate of the HIV-1 virus.",PMC516801,PMC516801_1
+The authors validated their estimation of the evolutionary rate by dividing the 16 SARS coronavirus strains into two groups based on their estimated date of last common ancestor.,PMC516801,PMC516801_2
+"The authors noted that the error in estimating the evolution rate and time of last common ancestor is large in their prediction, which they partially attribute to the narrow time distribution of the final sequences in their simulation.",PMC516801,PMC516801_3
+"The authors suggest that a more accurate model considering two evolution rate parameters may produce a more accurate estimation, particularly on a larger dataset with accurate sampling and sequencing times, as well as accurate data on pre-sequencing culturing times and conditions.",PMC516801,PMC516801_4

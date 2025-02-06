@@ -1,0 +1,10 @@
+finding,pubmed_id,finding_id
+"The authors identified 16 high-scoring orfs with dub activity in the ebv genome using a bioinformatics approach that combined scores from four different strategies based on sequence alignment, pattern search, HMM motifs, and detection of conserved cys and his residues in the context of HMM motifs.",PMC2573217,PMC2573217_0
+"Five of the 16 high-scoring orfs, including bplf1, bslf1, and bxlf1, were confirmed to have ubiquitin deconjugase activity, with bplf1 and bxlf1 exhibiting lower enzymatic activity compared to the n-terminal portion of bplf1.",PMC2573217,PMC2573217_1
+"The authors confirmed that the n-terminal portion of bplf1 is a very potent ubiquitin deconjugase, with bslf1 and bxlf1 also exhibiting ubiquitin deconjugase activity.",PMC2573217,PMC2573217_2
+"The authors identified catalytic cys residues in both bplf1 and bslf1, confirming that these ebv orfs are bona fide viral dubs.",PMC2573217,PMC2573217_3
+"The authors found that the enzymatic activity of bslf1 and bxlf1 was lower compared to the n-terminal portion of bplf1, suggesting that posttranslational modifications required for optimal enzymatic activity may not be achieved during infection in bacteria.",PMC2573217,PMC2573217_4
+"The authors identified 12 putative orfs with dub activity, including 5 orfs with high-scoring dub activity, in a database of 106 putative or confirmed ebv orfs using a global dub score obtained by combining scores from multiple low-stringency searches.",PMC2573217,PMC2573217_5
+"The authors identified a new viral dub encoded by the ebv orf bplf1, which shares 23% sequence identity with hsv-1 ubiquitin deconjugase ul36.",PMC2573217,PMC2573217_6
+"The authors found that bslf1, the ebv orf encoding a protein with 607 aa, was annotated as the ebv thymidine kinase (tk), and that it encircles the tubulin-rich centrioles in a microtubule-independent manner in contrast to other family members.",PMC2573217,PMC2573217_7
+The authors found,PMC2573217,PMC2573217_8

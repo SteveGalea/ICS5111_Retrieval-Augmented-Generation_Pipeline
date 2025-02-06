@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"Graphdna is a new Java application that allows for the presentation of DNA skews and walks of multiple sequences in a single graph, assisting in comparative analysis of nucleotide composition asymmetry.",PMC1783863,PMC1783863_0
+Graphdna has been successfully tested with DNA sequences from over 10 families of viruses and can handle all currently sequenced viral and bacterial genomes.,PMC1783863,PMC1783863_1
+"The program allows for the loading and displaying of DNA sequences from several sources, including fasta, Embl, and GenBank formats, and can connect to a vocs database to retrieve complete genomes from more than 10 families of viruses.",PMC1783863,PMC1783863_2
+Graphdna permits the display of gene annotations and allows for the comparison of skews among several sequences.,PMC1783863,PMC1783863_3
+"Purine skews, keto skews, and dinucleotide skews can be calculated for windows of various sizes, and a slider bar is provided to move markers along the plots and locate specific regions of the sequences, as the position of a particular nucleotide is dependent on the composition of the preceding nucleotide sequence, not on the position in the sequence.",PMC1783863,PMC1783863_4

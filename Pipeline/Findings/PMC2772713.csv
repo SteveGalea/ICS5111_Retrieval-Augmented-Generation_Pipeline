@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"A study published in The Journal of Virology reveals that gamma-2b viruses, including enterovirus 70 (EV70), require the activity of gamma-2b binding protein 1 (GBBP1) for efficient replication.",PMC2772713,PMC2772713_0
+"The study shows that gamma-2b viruses are sensitive to bafilomycin A1 (BFA), an inhibitor of the eukaryotic translation initiation factor 5A (eIF5A), which blocks gamma-2b virus replication by inhibiting the activity of GBBP1.",PMC2772713,PMC2772713_1
+The study demonstrates that the gamma-2b virus EV70 replicates in cells that express a mutant GBBP1 protein (GBBP1-M832L) that is resistant to BFA.,PMC2772713,PMC2772713_2
+The study also shows that knockdown of gamma-2b binding protein 1 (GBBP1) expression has no effect on EV70 replication.,PMC2772713,PMC2772713_3
+"The study suggests that the GBBP1-M832L mutant is more effective than the GBBP1-A795E mutant in rescuing protein secretion and cell viability in the presence of BFA, indicating that the GBBP1-M832L variant is more resistant to BFA than the GBBP1-A795E mutant.",PMC2772713,PMC2772713_4

@@ -1,0 +1,6 @@
+finding,pubmed_id,finding_id
+"Ce3f4r is a non-classical uncompetitive inhibitor that selectively binds to the mixed intermediate in the epac1 camp-dependent thermodynamic cycle, stabilizing the closed topology and inhibiting epac1 activation [45].",PMC6912387,PMC6912387_0
+Ce3f4r binding is specific to epac1 instead of epac2 due to the key residue q270 that is unique to the former isoform [45].,PMC6912387,PMC6912387_1
+"Ce3f4r inhibition is optimized at concentrations below 20 μm, which are considered pharmacologically effective, however, are not conducive to inhibitor aggregation and subsequent abi [46,47].",PMC6912387,PMC6912387_2
+Esi-09 is a pan-epac competitive inhibitor that forms aggregates with distinct morphologies and protein-binding behavior [47].,PMC6912387,PMC6912387_3
+"Esi-09 inhibition is specific at concentrations below 20 μm, but at higher concentrations, it can lead to false positives due to its ability to non-specifically adsorb proteins and perturb specific enzyme:substrate interactions [47].",PMC6912387,PMC6912387_4
